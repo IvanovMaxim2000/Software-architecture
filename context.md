@@ -9,7 +9,7 @@ Person(admin, "Администратор")
 Person(moderator, "Модератор")
 Person(user, "Пользователь")
 
-System(conference_site, "Сайт блогов", "Веб-сайт для работы с блогами")
+System(shop_site, "Сайт магазина", "Веб-сайт для покупки товаров")
 
 
 
