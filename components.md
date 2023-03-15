@@ -32,11 +32,11 @@ Rel(user, web_site, "Регистрация, просмотр информаци
 Rel(web_site, client_service, "Работа с пользователями", "localhost/person")
 Rel(client_service, db, "INSERT/SELECT/UPDATE", "SQL")
 
-Rel(web_site, products_service, "Работа с товарами", "localhost/pres")
-Rel(post_service, db, "INSERT/SELECT/UPDATE", "SQL")
+Rel(web_site, product_service, "Работа с товарами", "localhost/pres")
+Rel(product_service, db, "INSERT/SELECT/UPDATE", "SQL")
 
 Rel(web_site, basket_service, "Работа с корзинами", "localhost/conf")
-Rel(blog_service, db, "INSERT/SELECT/UPDATE", "SQL")
+Rel(basket_service, db, "INSERT/SELECT/UPDATE", "SQL")
 
 @enduml
 ```
